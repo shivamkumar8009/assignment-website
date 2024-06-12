@@ -111,7 +111,7 @@ body {
 
 .hero-section{
   background-image: url(herosection.svg);
-  background-size:auto;
+  background-size:cover;
 }
 .star{
   display: flex;
@@ -185,7 +185,7 @@ body {
   line-height: 26px;
   font-weight: 400;
   letter-spacing: 0.04em;
-  margin-bottom: 180px;
+  margin-bottom: 188px;
 }
 .vector-left{
   position: absolute;
@@ -198,4 +198,42 @@ body {
   z-index: 2;
   top:555.16px;
   left:1000px;
+}
+/* banner */
+.banner-section{
+  padding-left:30px;
+  padding-right:30px;
+   padding-top: 100px;
+}
+.banner-main{
+  background-image: url(rectangeblue1.svg);
+  background-size:cover;
+}
+
+.banner-main-content{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.banner-main-content-p1{
+  font-family: "Noto Serif", serif;
+  color: #151B4A;
+  font-size: 32px;
+  line-height: 55px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 0px;
+}
+.banner-content-img{
+ margin-left: 180px;
+}
+.banner-main-content-p2{
+color: #4E516C;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+ 
 }
