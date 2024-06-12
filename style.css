@@ -173,17 +173,29 @@ body {
   letter-spacing: 0.04em;
   text-decoration: underline;
 }
+.arrow{
+  position: absolute;
+  z-index: 1;
+  top:490.16px;
+  left:800px;
+}
 .main-content-p4{
   color: #4E516C;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   letter-spacing: 0.04em;
-  margin-bottom: 220px;
+  margin-bottom: 180px;
 }
-.arrow{
+.vector-left{
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top:490.16px;
-  left:800px;
+  left:80px;
+}
+.vector-right{
+  position: absolute;
+  z-index: 2;
+  top:555.16px;
+  left:1000px;
 }
