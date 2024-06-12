@@ -464,7 +464,7 @@ body {
 .cu-sessions {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 .cu-box1 {
   width: 270px;
@@ -515,4 +515,49 @@ body {
   color: #000000;
   justify-content: center;
   align-content: center;
+}
+/* info box */
+
+.cu-bottom-info-box{
+  width: 1073px;
+  height: 268px;
+  border: 1px solid #FFCC00;
+  margin-left: 135px;
+}
+
+.cu-bottom-info-box-p1{
+  color:#000000;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.cu-points-contain{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.cu-points-contain-col1-p1{
+  color: #4E516C;
+   font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+
+}
+
+.cu-button-enroll{
+  width: 145px;
+  height: 44px;
+  color: #ffffff;
+  border-radius: 60px;
+  background-color: #125e50;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-left: 600px;
+  margin-top: 50px;
 }
