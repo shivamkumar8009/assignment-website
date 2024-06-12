@@ -348,6 +348,7 @@ color: #4E516C;
   align-items: center;
   margin-top: 100px;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .cu-form-section-main-p1{
    font-family: "Noto Serif", serif;
@@ -408,4 +409,26 @@ color: #4E516C;
   justify-content: space-between;
   padding-left: 91px;
   padding-right: 91px;
+}
+.cu-button-request{
+  width: 174px;
+  height: 44px;
+  color: #ffffff;
+  border-radius: 60px;
+  background-color: #125e50;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-left: 420px;
+  margin-top: 50px;
+}
+.cu-below-button{
+  color: #4E516C;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-top: 30px;
 }
