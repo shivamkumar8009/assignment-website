@@ -586,6 +586,7 @@ body {
   line-height: 24px;
   font-weight: 600;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 .cu-footer-main-content-col1-2p{
   color:#4E516C;
@@ -614,6 +615,7 @@ body {
   line-height: 24px;
   font-weight: 400;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 .cu-footer-main-content-col2{
   display: flex;
@@ -636,7 +638,7 @@ body {
   line-height: 24px;
   font-weight: 600;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 .cu-footer-2f{
   color: #4E516C;
@@ -644,7 +646,7 @@ body {
   line-height: 27px;
   font-weight: 400;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 .cu-footer-3f{
 color: #4E516C;
@@ -652,7 +654,7 @@ color: #4E516C;
   line-height: 27px;
   font-weight: 400;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .cu-footer-1f-1{
@@ -661,7 +663,7 @@ color: #4E516C;
   line-height: 24px;
   font-weight: 600;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 .cu-footer-2f-2{
   color: #4E516C;
@@ -669,7 +671,7 @@ color: #4E516C;
   line-height: 27px;
   font-weight: 400;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 .cu-footer-3f-3{
 color: #4E516C;
@@ -677,5 +679,30 @@ color: #4E516C;
   line-height: 27px;
   font-weight: 400;
   letter-spacing: 0.03em;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+}
+.cu-footer-last{
+  position: absolute;
+  z-index: 4;
+  left:1100px;
+  top:4765px;
+}
+.cu-line{
+  margin-left: 25px;
+}
+.fb-twitter-insta{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.cu-cpoyright-p{
+  color: #4E516C;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 18px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
