@@ -561,3 +561,121 @@ body {
   margin-left: 600px;
   margin-top: 50px;
 }
+
+/* footer */
+
+.cu-footer{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.cu-footer-main-content{
+  background-image: url(rectangleblue3.svg);
+  background-size: cover;
+}
+.cu-footer-main-content-col{
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+.cu-footer-main-content-col1-logo{
+  margin-bottom: 40px;
+}
+.cu-footer-main-content-col1-1p{
+  color:#151B4A;
+   font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.cu-footer-main-content-col1-2p{
+  color:#4E516C;
+   font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.cu-footer-main-content-col1-3p{
+  color:#4E516C;
+   font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.cu-footer-main-content-col1-4p{
+  color:#4E516C;
+   font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.cu-footer-main-content-col1-5p{
+ color:#4E516C;
+   font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.cu-footer-main-content-col2{
+  display: flex;
+  flex-direction: column;
+}
+.cu-footer-main-content-col3{
+  display: flex;
+  flex-direction: column;
+}
+.cu-footer-main-content-col2 a{
+ text-decoration: none;
+}
+.cu-footer-main-content-col3 a{
+ text-decoration: none;
+}
+
+.cu-footer-1f{
+  color: #151B4A;
+   font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 15px;
+}
+.cu-footer-2f{
+  color: #4E516C;
+   font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 15px;
+}
+.cu-footer-3f{
+color: #4E516C;
+   font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 15px;
+}
+
+.cu-footer-1f-1{
+  color: #151B4A;
+   font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 15px;
+}
+.cu-footer-2f-2{
+  color: #4E516C;
+   font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 15px;
+}
+.cu-footer-3f-3{
+color: #4E516C;
+   font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 15px;
+}
