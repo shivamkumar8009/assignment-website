@@ -106,3 +106,68 @@ body {
   font-weight: 600;
   letter-spacing: 0.03em;
 }
+/* hero section */
+
+.hero-section{
+  background-image: url(herosection.svg);
+  background-size:auto;
+}
+.star{
+  display: flex;
+  justify-content: space-between;
+  padding:58px 180px;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-p1{
+  font-family: "Noto Serif", serif;
+  color: #151B4A;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 0px;
+}
+.main-content-img{
+  margin-left: 280px;
+}
+.main-content-p2{
+  color: #151B4A;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+.cu-button-explore{
+  width: 204px;
+  height: 44px;
+  color: #ffffff;
+  border-radius: 60px;
+  background-color: #125E50;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+   margin-bottom: 20px;
+}
+.main-content-p3{
+  color: #4E516C;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+.main-content-p3 span{
+  color: #4E516C;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+}
