@@ -14,6 +14,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  /* overflow: hidden; */
 }
 
 /* upper nav */
@@ -154,7 +155,8 @@ body {
   line-height: 24px;
   font-weight: 600;
   letter-spacing: 0.03em;
-   margin-bottom: 20px;
+  margin-bottom: 35px;
+   margin-top: 35px;
 }
 .main-content-p3{
   color: #4E516C;
@@ -170,4 +172,18 @@ body {
   font-weight: 400;
   letter-spacing: 0.04em;
   text-decoration: underline;
+}
+.main-content-p4{
+  color: #4E516C;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 220px;
+}
+.arrow{
+  position: absolute;
+  z-index: 1;
+  top:490.16px;
+  left:800px;
 }
