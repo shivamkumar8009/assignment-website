@@ -1417,6 +1417,7 @@ body {
 @media only screen and (max-width: 768px) {
   .footer-mobile {
     display: block;
+    padding-bottom: 100px;
   }
   .footer-mobile-main {
     padding-left: 30px;
