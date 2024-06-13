@@ -914,9 +914,9 @@ body {
 .trial {
   display: none;
 }
- .age-drop-for-color {
-    color: #4e516c;
-  }
+.age-drop-for-color {
+  color: #4e516c;
+}
 @media only screen and (max-width: 768px) {
   .cu-form-section {
     padding-left: 35px;
@@ -1423,20 +1423,20 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 100px;
-    margin-top: 100px;
   }
   .footer-mobile-bck {
-    background-image: url(rectangleblue3.svg);
-    background-size: cover;
-    padding-top: 50px;
+    background-image: url(Rectangle\ 86.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
   }
   .cu-footer-main-content-col1-logo-mobile {
     display: block;
     margin-left: 80px;
-    margin-bottom: 60px;
-    padding-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 0px;
   }
   .cu-footer-mobile-p1 {
     color: #151b4a;
@@ -1458,7 +1458,7 @@ body {
   }
   .fb-twitter-insta-mobile {
     margin-left: 100px;
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     gap: 20px;
   }
@@ -1466,18 +1466,19 @@ body {
     display: flex;
     padding-left: 30px;
     padding-right: 10px;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
   .last-imggg {
     margin-left: 220px;
-    margin-top: 20px;
+    margin-top: 2px;
   }
   .last-imggg-line {
     position: relative;
     z-index: 9;
     right: 18px;
   }
+
   .cu-cpoyright-p-mobile {
     color: #4e516c;
     font-size: 9px;
@@ -1486,7 +1487,7 @@ body {
     letter-spacing: 0.03em;
     margin-bottom: 18px;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding-bottom: 20px;
   }
 }
