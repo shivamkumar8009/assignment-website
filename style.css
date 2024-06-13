@@ -1441,8 +1441,9 @@ body {
     margin-top: 20px;
   }
   .last-imggg-line {
-    /* padding-right: 200px; */
-    margin-left: 0px;
+    position: relative;
+    z-index: 9;
+    right: 18px;
   }
   .cu-cpoyright-p-mobile {
     color: #4e516c;
