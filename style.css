@@ -914,6 +914,9 @@ body {
 .trial {
   display: none;
 }
+ .age-drop-for-color {
+    color: #4e516c;
+  }
 @media only screen and (max-width: 768px) {
   .cu-form-section {
     padding-left: 35px;
