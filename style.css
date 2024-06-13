@@ -884,6 +884,9 @@ body {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.drop-a-cu-new {
+  color: #4e516c;
+}
 
 .cu-button-request {
   width: 174px;
@@ -1016,12 +1019,14 @@ body {
     height: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
   }
   .cu-form-inp-2 {
     width: 280px;
     height: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
   }
   .cu-form-inp-3 {
     width: 280px;
@@ -1030,12 +1035,14 @@ body {
     margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
   }
   .cu-form-inp-4 {
     width: 280px;
     height: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
   }
   .cu-input {
     color: #4e516c;
@@ -1069,6 +1076,7 @@ body {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #ffffff;
+    font-size: 12px;
   }
   .cu-drop {
     width: 60px;
@@ -1078,6 +1086,16 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: #ffffff;
+    font-size: 12px;
+  }
+  .drop-a-cu-new {
+    padding: 2px;
+    color: #4e516c;
+    font-size: 12px;
+  }
+  .age-drop-for-color {
+    color: #4e516c;
+    font-size: 12px;
   }
   .trial {
     display: block;
