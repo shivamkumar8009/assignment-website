@@ -908,6 +908,9 @@ body {
   padding-top: 20px;
   margin-bottom: 30px;
 }
+.trial {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .cu-form-section {
     padding-left: 35px;
@@ -1074,6 +1077,14 @@ body {
     border: 1px solid#CAC5C5;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    background-color: #ffffff;
+  }
+  .trial {
+    display: block;
+    background-color: #e4f7f3;
+    padding-bottom: 20px;
+    border: 1px solid #e4f7f3;
+    border-bottom-left-radius: 30px;
   }
 }
 
