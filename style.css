@@ -277,6 +277,10 @@ body {
 .vector-right-mobile {
   display: none;
 }
+
+.cu-sticky {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .hero-section {
     background-image: url(heromobile.svg);
@@ -403,6 +407,22 @@ body {
     z-index: 2;
     top: 495.16px;
     left: 250px;
+  }
+  .cu-sticky {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 75px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .bl1 {
+    padding: 15px;
   }
 }
 
@@ -557,7 +577,7 @@ body {
   .banner-content-img-mobile {
     position: absolute;
     display: block;
-    top: 785px;
+    top: 860px;
     left: 240px;
   }
   .banner-main-content-p2 {
@@ -588,7 +608,7 @@ body {
   .cu-card-svg-1-mobile {
     display: block;
     position: absolute;
-    top: 845px;
+    top: 920px;
     left: 82px;
     z-index: 3;
   }
@@ -598,7 +618,7 @@ body {
   .cu-card-svg-2-mobile {
     display: block;
     position: absolute;
-    top: 1310px;
+    top: 1390px;
     left: 82px;
     z-index: 3;
   }
@@ -608,7 +628,7 @@ body {
   .cu-card-svg-3-mobile {
     display: block;
     position: absolute;
-    top: 1765px;
+    top: 1850px;
     left: 82px;
     z-index: 3;
   }
