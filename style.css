@@ -875,6 +875,8 @@ body {
   border: 1px solid#CAC5C5;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 .cu-drop {
   width: 60px;
