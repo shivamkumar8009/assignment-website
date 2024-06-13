@@ -51,7 +51,11 @@ body {
   font-weight: 600;
   letter-spacing: 0.03em;
 }
-
+@media only screen and (max-width: 768px) {
+  .cu-upper-nav {
+    display: none;
+  }
+}
 /* lower nav */
 .cu-lower-nav {
   background-color: #f7eec6;
@@ -62,26 +66,29 @@ body {
   justify-content: space-between;
   padding: 10px 20px;
 }
+.cu-navbar-logo-mobile {
+  display: none;
+}
 .cu-navbar-links {
   display: flex;
   list-style: none;
   align-items: center;
   margin-top: 8px;
 }
-.cu-new{
+.cu-new {
   color: #ffffff;
-   width: 27px;
+  width: 27px;
   height: 12px;
   border-radius: 6px;
-  background-color: #EA5858;
+  background-color: #ea5858;
   font-size: 9px;
   font-weight: 600;
   line-height: 16px;
-  padding-left:4px;
+  padding-left: 4px;
   padding-bottom: 4px;
   position: absolute;
   top: 48px;
-  left:700px;
+  left: 700px;
 }
 
 .cu-navbar-links li {
@@ -123,6 +130,30 @@ body {
   font-weight: 600;
   letter-spacing: 0.03em;
 }
+@media only screen and (max-width: 768px) {
+  .cu-lower-nav {
+    width: 100%;
+    height: 68px;
+  }
+  .cu-navbar-logo {
+    display: none;
+  }
+  .cu-navbar-logo-mobile {
+    display: block;
+  }
+  .logo-mobileView {
+    margin-left: 80px;
+  }
+  .cu-navbar-links {
+    display: none;
+  }
+  .cu-button-login {
+    display: none;
+  }
+  .cu-button-SignUp {
+    display: none;
+  }
+}
 /* hero section */
 
 .hero-section {
@@ -140,6 +171,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .main-content-p1 {
@@ -151,8 +183,14 @@ body {
   letter-spacing: 0.02em;
   margin-bottom: 0px;
 }
+.main-content-p1-mobile {
+  display: none;
+}
 .main-content-img {
   margin-left: 280px;
+}
+.main-content-img-mobile {
+  display: none;
 }
 .main-content-p2 {
   color: #151b4a;
@@ -160,6 +198,15 @@ body {
   line-height: 30px;
   font-weight: 400;
   letter-spacing: 0.04em;
+}
+.main-content-p2-mobile {
+  display: none;
+}
+.arrow-mobile {
+  display: none;
+}
+.cu-button-explore-mobile {
+  display: none;
 }
 .cu-button-explore {
   width: 204px;
@@ -181,6 +228,9 @@ body {
   font-weight: 400;
   letter-spacing: 0.04em;
 }
+.main-content-p3-mobile {
+  display: none;
+}
 .main-content-p3 span {
   color: #4e516c;
   font-size: 16px;
@@ -195,6 +245,9 @@ body {
   top: 490.16px;
   left: 800px;
 }
+.arrow-mobile {
+  display: none;
+}
 .main-content-p4 {
   color: #4e516c;
   font-size: 16px;
@@ -202,6 +255,9 @@ body {
   font-weight: 400;
   letter-spacing: 0.04em;
   margin-bottom: 188px;
+}
+.main-content-p4-mobile {
+  display: none;
 }
 .vector-left {
   position: absolute;
@@ -215,6 +271,141 @@ body {
   top: 555.16px;
   left: 1000px;
 }
+.vector-left-mobile {
+  display: none;
+}
+.vector-right-mobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    background-image: url(heromobile.svg);
+    background-size: contain;
+  }
+  .star {
+    display: none;
+  }
+  .main-content-p1 {
+    display: none;
+  }
+  .main-content-p1-mobile {
+    display: block;
+    font-family: "Noto Serif", serif;
+    color: #151b4a;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 35px;
+  }
+  .main-content-img {
+    display: none;
+  }
+  .main-content-img-mobile {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    top: 205px;
+    left: 180px;
+  }
+  .main-content-p2 {
+    display: none;
+  }
+  .main-content-p2-mobile {
+    display: block;
+    color: #151b4a;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+  }
+  .cu-button-explore {
+    display: none;
+  }
+  .cu-button-explore-mobile {
+    display: block;
+    width: 165px;
+    height: 36px;
+    color: #ffffff;
+    border-radius: 60px;
+    background-color: #125e50;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .main-content-p3 {
+    display: none;
+  }
+  .main-content-p3-mobile {
+    display: block;
+    color: #4e516c;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+  }
+  .main-content-p3 span {
+    display: none;
+  }
+  .main-content-p3-mobile span {
+    display: block;
+    color: #4e516c;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+  }
+
+  .arrow {
+    display: none;
+  }
+  .arrow-mobile {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 290.16px;
+    left: 270px;
+  }
+  .main-content-p4 {
+    display: none;
+  }
+  .main-content-p4-mobile {
+    display: block;
+    /* color: #4e516c;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.04em; */
+    margin-bottom: 130px;
+  }
+  .vector-left {
+    display: none;
+  }
+  .vector-right {
+    display: none;
+  }
+  .vector-left-mobile {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 455.16px;
+    left: 20px;
+  }
+  .vector-right-mobile {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 495.16px;
+    left: 250px;
+  }
+}
+
 /* banner */
 .banner-section {
   padding-left: 30px;
@@ -242,10 +433,15 @@ body {
   letter-spacing: 0.02em;
   margin-bottom: 0px;
 }
+.banner-main-content-p1-mobile {
+  display: none;
+}
 .banner-content-img {
   margin-left: 180px;
 }
-
+.banner-content-img-mobile {
+  display: none;
+}
 .banner-main-content-p2 {
   color: #4e516c;
   font-size: 18px;
@@ -274,11 +470,17 @@ body {
   left: 75px;
   z-index: 3;
 }
+.cu-card-svg-1-mobile {
+  display: none;
+}
 .cu-card-svg-2 {
   position: absolute;
   top: 1335px;
   left: 500px;
   z-index: 3;
+}
+.cu-card-svg-2-mobile {
+  display: none;
 }
 .cu-card-svg-3 {
   position: absolute;
@@ -286,9 +488,15 @@ body {
   left: 930px;
   z-index: 3;
 }
+.cu-card-svg-3-mobile {
+  display: none;
+}
 .cu-card-image {
   width: 246px;
   height: 246px;
+}
+.cu-card-image-mobile {
+  display: none;
 }
 .cu-card-p1 {
   color: #151b4a;
@@ -313,6 +521,130 @@ body {
   font-weight: 400;
   letter-spacing: 0.04em;
 }
+.see-all-prog-line {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .banner-section {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+  }
+  .banner-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .banner-main-content-p1 {
+    display: none;
+  }
+  .banner-main-content-p1-mobile {
+    display: block;
+    font-family: "Noto Serif", serif;
+    color: #151b4a;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .banner-content-img {
+    display: none;
+  }
+  .banner-content-img-mobile {
+    position: absolute;
+    display: block;
+    top: 785px;
+    left: 240px;
+  }
+  .banner-main-content-p2 {
+    display: none;
+  }
+  .banner-main-content-p3 {
+    display: none;
+  }
+  /* card */
+  .cu-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .cu-card-image {
+    display: none;
+  }
+  .cu-card-image-mobile {
+    display: block;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .cu-card-svg-1 {
+    display: none;
+  }
+  .cu-card-svg-1-mobile {
+    display: block;
+    position: absolute;
+    top: 845px;
+    left: 82px;
+    z-index: 3;
+  }
+  .cu-card-svg-2 {
+    display: none;
+  }
+  .cu-card-svg-2-mobile {
+    display: block;
+    position: absolute;
+    top: 1310px;
+    left: 82px;
+    z-index: 3;
+  }
+  .cu-card-svg-3 {
+    display: none;
+  }
+  .cu-card-svg-3-mobile {
+    display: block;
+    position: absolute;
+    top: 1765px;
+    left: 82px;
+    z-index: 3;
+  }
+  .cu-card-p1 {
+    color: #151b4a;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .cu-card-p2 {
+    color: #4e516c;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .cu-card-a {
+    color: #ea5858;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin-left: 60px;
+  }
+  .see-all-prog-line {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+}
 
 /* work-section */
 .work-section {
@@ -330,6 +662,9 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
+.work-section-p1-mobile {
+  display: none;
+}
 .work-section-p2 {
   color: #4e516c;
   font-size: 18px;
@@ -337,12 +672,67 @@ body {
   font-weight: 400;
   letter-spacing: 0.04em;
 }
+.work-section-p2-mobile {
+  display: none;
+}
 .work-section-p3 {
   color: #4e516c;
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
   letter-spacing: 0.04em;
+}
+.work-section-p3-mobile {
+  display: none;
+}
+.cu-who-we-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .work-section-p1 {
+    display: none;
+  }
+  .work-section-p1-mobile {
+    display: block;
+    font-family: "Noto Serif", serif;
+    color: #151b4a;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .work-section-p2 {
+    display: none;
+  }
+  .work-section-p2-mobile {
+    display: block;
+    color: #4e516c;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .work-section-p3 {
+    display: none;
+  }
+  .work-section-p3-mobile {
+    display: block;
+    color: #4e516c;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .cu-who-we {
+    display: none;
+  }
+  .cu-who-we-mobile {
+    display: block;
+    margin-top: 20px;
+  }
 }
 
 /* 4th section */
@@ -371,6 +761,9 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
+.cu-form-section-main-p1-mobile {
+  display: none;
+}
 .cu-form-section-main-p2 {
   font-family: "Noto Serif", serif;
   color: #151b4a;
@@ -379,12 +772,18 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
+.cu-form-section-main-p2-mobile {
+  display: none;
+}
 .cu-form-section-main-p3 {
   color: #4e516c;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   letter-spacing: 0.04em;
+}
+.cu-form-section-main-p3-mobile {
+  display: none;
 }
 .cu-form-section-main-p4 {
   color: #4e516c;
@@ -393,6 +792,9 @@ body {
   font-weight: 400;
   letter-spacing: 0.04em;
   margin-bottom: 50px;
+}
+.cu-form-section-main-p4-mobile {
+  display: none;
 }
 
 /* form */
@@ -412,6 +814,9 @@ body {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 30px;
+}
+.cu-white-form-p-mobile {
+  display: none;
 }
 .cu-first-form-input {
   display: flex;
@@ -480,7 +885,174 @@ body {
   text-align: center;
   padding-top: 20px;
   margin-bottom: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .cu-form-section {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .cu-form-section-main {
+    background-image: url(rectangleblue2.svg);
+    background-size: cover;
+  }
+  .cu-form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+  }
+  .cu-form-section-main-p1 {
+    display: none;
+  }
+  .cu-form-section-main-p1-mobile {
+    display: block;
+    font-family: "Noto Serif", serif;
+    color: #151b4a;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .cu-form-section-main-p2 {
+    display: none;
+  }
+  .cu-form-section-main-p2-mobile {
+    display: block;
+    font-family: "Noto Serif", serif;
+    color: #151b4a;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .cu-form-section-main-p3 {
+    display: none;
+  }
+  .cu-form-section-main-p3-mobile {
+    display: block;
+    color: #4e516c;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .cu-form-section-main-p4 {
+    display: none;
+  }
+  .cu-form-section-main-p4-mobile {
+    display: block;
+    color: #4e516c;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .cu-form-section-main {
+    background-image: url(Rectangle94.svg);
+    background-size: cover;
+  }
+  /* form */
+  .cu-white-form {
+    background-color: #e4f7f3;
+    width: 100%;
+    /* height: 452px;  */
+    border-radius: 14px;
+  }
 
+  .cu-white-form-p {
+    display: none;
+  }
+  .cu-white-form-p-mobile {
+    display: block;
+    color: #151b4a;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-align: center;
+    /* padding-top: 50px; */
+    margin-bottom: 30px;
+  }
+  .cu-first-form-input {
+    display: grid;
+  }
+  .cu-second-form-input {
+    display: grid;
+  }
+  .cu-form-inp-1 {
+    width: 280px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cu-form-inp-2 {
+    width: 280px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cu-form-inp-3 {
+    width: 280px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cu-form-inp-4 {
+    width: 280px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cu-input {
+    color: #4e516c;
+    font-size: 13px;
+    margin-left: 10px;
+    line-height: 15.73px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .cu-button-request {
+    width: 174px;
+    height: 44px;
+    color: #ffffff;
+    border-radius: 60px;
+    background-color: #125e50;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  .cu-phone-num {
+    display: flex;
+  }
+  .cu-form-inp-5 {
+    width: 220px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid#CAC5C5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ffffff;
+  }
+  .cu-drop {
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid#CAC5C5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
 }
 
 /* plans section  */
@@ -615,6 +1187,20 @@ body {
   margin-left: 600px;
   margin-top: 50px;
 }
+@media only screen and (max-width: 768px) {
+  .plans-section {
+    display: none;
+  }
+  .cu-sessions {
+    display: none;
+  }
+  .cu-bottom-info-box {
+    display: none;
+  }
+  .cu-bottom-green-button {
+    display: none;
+  }
+}
 
 /* footer */
 
@@ -622,6 +1208,7 @@ body {
   padding-left: 35px;
   padding-right: 35px;
 }
+
 .cu-footer-main-content {
   background-image: url(rectangleblue3.svg);
   background-size: cover;
@@ -759,4 +1346,87 @@ body {
   text-align: center;
   margin-top: 20px;
   padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .cu-footer {
+    display: none;
+  }
+}
+
+/* footer mobile */
+
+.footer-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-mobile {
+    display: block;
+  }
+  .footer-mobile-main {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    margin-top: 100px;
+  }
+  .footer-mobile-bck {
+    background-image: url(rectangleblue3.svg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .cu-footer-main-content-col1-logo-mobile {
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 60px;
+  }
+  .cu-footer-mobile-p1 {
+    color: #151b4a;
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .cu-footer-mobile-p2 {
+    color: #4e516c;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .fb-twitter-insta-mobile {
+    margin-left: 110px;
+  }
+  .cu-footer-mobile-contain {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .last-imggg {
+    margin-left: 220px;
+    margin-top: 20px;
+  }
+  .last-imggg-line {
+    padding-right: 200px;
+    margin-left: 0px;
+  }
+  .cu-cpoyright-p-mobile {
+    color: #4e516c;
+    font-size: 9px;
+    line-height: 11px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-bottom: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
 }
