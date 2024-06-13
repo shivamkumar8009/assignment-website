@@ -1424,7 +1424,10 @@ body {
     text-align: center;
   }
   .fb-twitter-insta-mobile {
-    margin-left: 110px;
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
   }
   .cu-footer-mobile-contain {
     display: flex;
